@@ -1,0 +1,319 @@
+#container1{
+    margin: auto;
+    width: 500px;
+    position: relative;
+    top: 50px;
+  
+}
+#logo{
+    background-color: black;
+    
+}
+#logo p{
+   position: relative;
+   left: 10px;
+   top: 2px;
+    font-size: 23px;
+    color: orange;
+}
+#pom{
+    position: relative;
+    top: 15px;
+}
+#logo #i1,#i2{
+    width: 250px;
+    height: 25px;
+    position: relative;
+    bottom: 35px;
+    position: relative;
+    left: 10px;
+}
+#logo #i1:focus {
+    background-color: silver;
+    color:black;
+}
+#logo #i2:focus {
+    background-color: silver;
+    color:black;
+}
+#logo #b1{
+    position: relative;
+    left: 10px;
+    bottom: 4px;
+  
+    
+}
+#logo #b1:hover{
+    background-color:white;
+    color: orange;
+}
+#b2{
+    position: relative;
+    top: -10px;
+}
+ #b2:hover{
+    background-color:black ;
+    color: orange;
+}
+
+
+#container2 #lista{
+    
+    
+    width: 1200px;
+    position: relative;
+    top: 70px;
+    
+}
+ #lista ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  height: 60px;
+}
+
+ #lista li {
+  float: left;
+  position: relative;
+  left: 170px;
+  margin: 3px;
+  padding-left: 10px;
+  
+  
+}
+ #lista button{
+    width: 150px;
+    padding: 5px;
+    background-color: orange;
+    position: relative;
+    top: 12px;
+}
+
+
+#lista{
+    
+    
+    width: 900px;
+    position: relative;
+    top: 70px;
+    
+}
+#lista ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  height: 60px;
+}
+
+#lista li {
+  float: left;
+  position: relative;
+  left: 170px;
+  margin: 3px;
+  padding-left: 10px;
+  
+  
+}
+#lista button{
+    width: 150px;
+    padding: 5px;
+    background-color: orange;
+    position: relative;
+    top: 12px;
+}
+
+
+#container2{
+    margin: auto;
+    width: 900px;
+    position: relative;
+    top: 50px;
+   
+}
+#fitleri{
+    width: 550px;
+    position: relative;
+    top:70px;
+    left: 630px;
+    background-color: orange;
+}
+#fitleri select,input{
+    position: relative;
+    left: 30px;
+}
+#p0{
+    position: relative;
+    left: 50px;
+}
+#c1{
+    position: relative;
+    left: 60px;
+    width: 20px;
+    top: 3px;
+}
+#fitleri input:focus{
+    background-color: black;
+    color: orange;
+}
+
+#tabela{
+    position: relative;
+    top: 70px;
+   
+    width: 450px;
+    
+}
+#tabela th,td,tr{
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    font-size: 20px;
+   
+}
+#tabela td{
+    color: orange;
+    background-color: black;
+}
+#chec{
+    position: relative;
+    left: -2px;
+}
+#korpa{
+    /*background-color: black;*/
+   
+    /*color: orange;*/
+    width:400px;
+  height: 100px;
+    position: absolute;
+    left: 750px;
+    float: left;
+   bottom: 270px;
+}
+#korpa1{
+    width: 300px;
+    position: relative;
+    left: -40px;
+    top: 405px;
+    float: left;
+    clear: both;
+    
+}
+#korpa li{
+    list-style-type: none;
+    position: relative;
+    padding: 4px;
+    text-align: center;
+    font-size: 20px;
+   background-color: black;
+   color: orange;
+     border: 1px solid black;
+}
+#fil{
+    position: relative;
+    left: 50px;
+}
+#lista button:hover{
+    background-color: black;
+    color: orange;
+    
+}
+#container3{
+    margin: auto;
+    width: 900px;
+    position: relative;
+    top: 150px;
+    background-color: black;
+    color: orange;
+     
+  
+}
+#container3 h1{
+    position: relative;
+   top: 40px;
+}
+#container4{
+    margin: auto;
+    width: 900px;
+   
+    position: relative;
+    top: 150px;
+    background-color: black;
+    color: orange;
+  
+}
+#container4 h1{
+    position: relative;
+   top: 40px;
+}
+#container5{
+    margin: auto;
+    width: 900px;
+    position: relative;
+    top: 150px;
+    background-color: black;
+    color: orange;
+     
+  
+}
+#container5 h1{
+    position: relative;
+   top: 40px;
+}
+.b5:hover{
+    background-color: black;
+    color: orange;
+}
+.b6:hover{
+     background-color: black;
+    color: orange;
+}
+.b6{
+    position: relative;
+    top: 60px;
+    left: 5px;
+}
+.slika{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    left: 220px;
+}
+.p1{
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+    
+}
+.b5{
+    position: relative;
+    left: 490px;
+   
+}
+.p2{
+    color: orange;
+    position: relative;
+    left: 10px;
+    top: 70px;
+   
+}
+.uzmi{
+    background-color: black;
+    width: 800px;
+   
+}
+.nagrade li {
+    color: orange;
+}
+.nagrade{
+    position: relative;
+    top: 70px;
+}
+.tekst{
+   height: 800px; 
+   display: none;
+}

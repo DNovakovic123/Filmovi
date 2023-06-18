@@ -1,0 +1,202 @@
+<html>
+
+<head>
+    <title>Danilo Novakovic</title>
+    <link rel="stylesheet" href="newcss.css">
+    <script type="text/javascript" src="newjavascript1.js"></script>
+</head>
+
+<body onload="xmlLoad();xmlLoad1()">
+    <div id="container1">
+        <h1 style="color: orange;">Praska skola postoji </h1>
+        <div id="logo">
+            <div id="pom">
+                <p>Korisnicko ime i prezime </p><br>
+
+                <input id="i1" type="text" value=""><br>
+            </div>
+            <p>Lozinka</p><br>
+            <input id="i2" type="password" value=""><br>
+            <button id="b1" onclick="xmlLoad()">Uloguj se </button>
+
+        </div>
+    </div>
+
+    <div id="container2">
+        <span id="dobro"></span>
+        <div id="lista">
+            <ul>
+                <li> <button onclick="P1(this)">Home</button></li>
+                <li><button onclick="P2(this)">Goran Markovic</button></li>
+                <li><button onclick="P3(this)">Goran Paskaljevic</button></li>
+                <li><button onclick="P4(this)">Srdjan Karanovic</button></li>
+
+            </ul>
+        </div>
+        <div id="butoo">
+            <button id="b2" onclick="Izlog(this)">Izloguj se </button>
+        </div>
+        <div id="fitleri">
+            <input id="filter" type="text" placeholder="unesi za pretragu" onkeyup="xmlLoad1()">
+            <select id="sel" onchange="Selektovano(this)">
+
+            </select>
+            <span id="p0">vece od 7.5</span><input id="c1" type="checkbox" onchange="Vise(this)">
+
+        </div>
+        <div id="tabela">
+
+        </div>
+        <div id="korpa1">
+            <ol id="korpa">
+
+            </ol>
+            
+        </div>
+       
+    </div>
+
+
+    <div id="container3">
+
+        <h1 style="color: orange;text-align: center;">Praska skola postoji </h1>
+        <div id="lista">
+            <ul>
+                <li> <button onclick="P1(this)">Home</button></li>
+                <li><button onclick="P2(this)">Goran Markovic</button></li>
+                <li><button onclick="P3(this)">Goran Paskaljevic</button></li>
+                <li><button onclick="P4(this)">Srdjan Karanovic</button></li>
+            </ul>
+        </div>
+        <div id="butoo">
+            <button id="b2" onclick="Izlog(this)">Izloguj se </button>
+        </div>
+
+
+        <div class="o_reditelju" id="o_reditelju1">
+            <p class="p1">Vise inforamcija o Goranu Markovic mozete videti ovde </p><button class="b5"
+                onclick="P5(this)">Detaljnije </button>
+
+        </div>
+        <div class="tekst" id="tekst1" style="display: none;">
+            <img class="slika" src="images/Capture1.PNG"><br><br>
+            <div class="uzmi">
+                <p class="p2">Rodjen je u Beogradu. Oba njegova roditelja, Rade Markovic i Olivera Markovic, su bili
+                    poznati srpski glumci. Zavrsio Petu beogradsku gimnaziju, a potom FAMU u Pragu. Rezirao pedesetak
+                    dokumentarnih, 11 celovečernjih filmova, napisao desetak filmskih scenarija, napisao sest pozorišnih
+                    komada, rezirao tri pozorišne predstave, napisao tri knjige. Dobio vise od 30 domacih i stranih
+                    nagrada i priznanja, kako za rad na filmu, tako i za pozorisno stvaralastvo. Najznacajnije: dve
+                    Zlatne arene y Puli, nagrada za najbolju režiju filma „Tito i ja“ y San Sebastijanu, Gran pri za
+                    „Kordon“ y Montrealu i Sterijina nagrada za najbolji savremeni tekst za „Turneju“.
+
+                    Predaje reziju na Fakultetu dramskih umetnosti u Beogradu, clan je Evropske akademije za filmsku
+                    umetnost u Briselu. Razveden, nema dece.
+
+                    Kolumnista je dnevnih novina Politika gde mahom pise o temama iz kulture.
+
+                    Dobio je 2012. godine francuski Orden oficira umetnosti i knjizevnosti.</p>
+
+                <div class="nagrade">
+                    <ul>
+                        <li> 1977 - Zlatni dukat Manhajmskog festivala</li>
+                        <li>1987 - Nagrada za najbolji scenario na filmskom festivalu u Vrnjačkoj Banji za film Već
+                            viđeno</li>
+                        <li>1987 - Zlatna arena u Puli za film Već viđeno</li>
+                        <li>1989 - Zlatna arena u Puli za film Sabirni centar</li>
+
+                        <li>1992 - Nagrada za najbolju režiju na filmskom festivalu u San Sebastijanu za film Tito i ja
+                        </li>
+                        <li>1997 - Gran pri filmskog festivala u Montrealu za film Kordon</li>
+                        <li>2008 - Sterijina nagrada za najbolji savremeni tekst za Turneju</li>
+                        <li>2021 - „Mihićevo zlatno pero“ - Festival filmskog scenarija u Vrnjačkoj Banji</li>
+                        <li>2021 - Nagrada za životno delo - Festival autorskog filma</li>
+                    </ul>
+                </div>
+            </div>
+            <button class="b6" onclick="P6(this)">Vrati se </button>
+        </div>
+
+    </div>
+    <div id="container4">
+
+       <h1 style="color: orange;text-align: center;">Praska skola postoji </h1>
+        <div id="lista">
+            <ul>
+                <li> <button onclick="P1(this)">Home</button></li>
+                <li><button onclick="P2(this)">Goran Markovic</button></li>
+                <li><button onclick="P3(this)">Goran Paskaljevic</button></li>
+                <li><button onclick="P4(this)">Srdjan Karanovic</button></li>
+
+            </ul>
+        </div>
+        <div id="butoo">
+            <button id="b2" onclick="Izlog(this)">Izloguj se </button>
+        </div>
+
+        <div class="o_reditelju" id="o_reditelju2">
+            <p class="p1">Vise inforamcija o Goranu Paskaljevicu mozete videti ovde </p><button class="b5"
+                onclick="P7(this)">Detaljnije </button>
+
+        </div>
+        <div class="tekst" id="tekst2">
+            <img class="slika" src="images/Capture.PNG">
+            <p class="p2">
+                Diplomirao je filmsku reziju na Fakultetu za film i televiziju (FAMU) Akademije scenskih umetnosti (ces.
+                Akademie múzickcch umění) u Pragu. Rezirao je mnoge dokumentarne filmove i TV drame za TV Beograd, a
+                prvi dugometrazni igrani film — Cuvar plaže u zimskom periodu, snimio je 1976. Napravio je preko 30
+                dokumentarnih i 13 igranih filmova.
+
+                U Becu je tokom aprila 2016. odrzana retrospektiva njegovih filmova.
+
+                Preminuo je 25. septembra 2020. godine u Parizu. Posle kremiranja u Parizu na groblju Per Lašez njegovi
+                posmrtni ostaci su 10. oktobra preneti u Beograd na Novo groblje.
+            </p>
+            <div class="nagrade">
+                <ul>
+                    <li> Velika bronzana arena za najbolji film na Filmskom festivalu u Puli, za igrani film Zemaljski
+                        dani teku, 1979. godine.</li>
+                    <li>Najveće priznanje Jugoslovenske kinoteke Zlatni pečat, 2019. godine.</li>
+                    <li>Leskovacki internacionalni festival filmske rezije LIFFE 2020: Nagrada Zivojin Zika Pavlovic za
+                        afirmaciju regionalne filmske umetnosti u svetu, 2020. godine.</li>
+
+                </ul>
+            </div>
+            <button class="b6" onclick="P8(this)">Vrati se </button>
+        </div>
+    </div>
+
+    <div id="container5">
+
+         <h1 style="color: orange;text-align: center">Praska skola postoji </h1>
+        <div id="lista">
+            <ul>
+                <li> <button onclick="P1(this)">Home</button></li>
+                <li><button onclick="P2(this)">Goran Markovic</button></li>
+                <li><button onclick="P3(this)">Goran Paskaljevic</button></li>
+                <li><button onclick="P4(this)">Srdjan Karanovic</button></li>
+            </ul>
+        </div>
+        <div id="butoo">
+            <button id="b2" onclick="Izlog(this)">Izloguj se </button>
+        </div>
+
+        <div class="o_reditelju" id="o_reditelju3">
+            <p class="p1">Vise inforamcija o Srdjanu Karanovicu mozete videti ovde </p><button class="b5"
+                onclick="P9(this)">Detaljnije </button>
+
+        </div>
+        <div class="tekst" id="tekst3">
+            <img class="slika" src="images/Capture2.PNG">
+            <p class="p2">Zajedno je studirao FAMU-u u Pragu sa Rajkom Grlicem a sa njim je kasnije saradjivao u mnogim
+                filmovima i TV-serijama: Grlom u jagode, Drustvena igra (film), Miris poljskog cveca... Svrstavaju ga u
+                takozvanu "Prasku skolu" "Jugoslovenskog filma" sa filmskim poslenicima koji su studirali u Pragu na
+                FAMU-u i dali veliki doprinos "Jugoslovenskoj kinematografiji".</p>
+
+
+            <button class="b6" onclick="P10(this)">Vrati se </button>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+<filmovi>
+
+    
+     <pok>
+        <reditelj>Srdjan Karanovic</reditelj>
+        <film>Miris poljskog cveca</film>
+        <ocena>7.3</ocena>
+        
+        
+    </pok>
+    
+    <pok>
+        <reditelj>Goran Markovic</reditelj>
+        <film>Sabirni centar</film>
+        <ocena>8.2</ocena>
+        
+    </pok>
+
+    <pok>
+        
+        <reditelj>Goran Paskaljevic</reditelj>
+        <film>Bure baruta</film>
+        <ocena>7.8</ocena>
+        
+    </pok>
+    
+    
+    
+    <pok>
+        <reditelj>Goran Markovic</reditelj>
+        <film>Vec vidjeno</film>
+        <ocena>7.7</ocena>
+        
+    </pok>
+
+    <pok>
+        
+        <reditelj>Goran Paskaljevic</reditelj>
+        <film>Kad svane dan</film>
+        <ocena>6.9</ocena>
+        
+    </pok>
+    <pok>
+        <reditelj>Srdjan Karanovic</reditelj>
+        <film>Petrijin venac</film>
+        <ocena>8.1</ocena> 
+    </pok>
+    
+    
+    <pok>
+        <reditelj>Goran Markovic</reditelj>
+        <film>Tajvanska kanasta</film>
+        <ocena>7.5</ocena>
+        
+    </pok>
+
+    <pok>
+        
+        <reditelj>Goran Paskaljevic</reditelj>
+        <film>Tudja Amerika</film>
+        <ocena>7.0</ocena>
+        
+    </pok>
+    <pok>
+        <reditelj>Srdjan Karanovic</reditelj>
+        <film>Nesto izmedju </film>
+        <ocena>7.3</ocena> 
+    </pok>
+
+    <pok>
+        <reditelj>Goran Markovic</reditelj>
+        <film>Nacionalna klasa</film>
+        <ocena>7.5</ocena>
+        
+    </pok>
+
+    <pok>
+        
+        <reditelj>Goran Paskaljevic</reditelj>
+        <film>Vreme cuda </film>
+        <ocena>7.4</ocena>
+        
+    </pok>
+    <pok>
+        <reditelj>Srdjan Karanovic</reditelj>
+        <film>Besa </film>
+        <ocena>7.1</ocena> 
+    </pok>
+    <pok>
+        <reditelj>Goran Markovic</reditelj>
+        <film>Variola vera</film>
+        <ocena>7.5</ocena>
+        
+    </pok>
+
+    <pok>
+        
+        <reditelj>Goran Paskaljevic</reditelj>
+        <film>Varljivo leto 68 </film>
+        <ocena>8.5</ocena>
+        
+    </pok>
+    <pok>
+        <reditelj>Srdjan Karanovic</reditelj>
+        <film>Jagode u grlu </film>
+        <ocena>7.2</ocena> 
+    </pok>
+
+
+
+
+    <pok>
+        <reditelj>Goran Markovic</reditelj>
+        <film>Turneja</film>
+        <ocena>7.2</ocena>
+        
+    </pok>
+
+    <pok>
+        
+        <reditelj>Goran Paskaljevic</reditelj>
+        <film>Poseban tretman</film>
+        <ocena>7.2</ocena>
+        
+    </pok>
+
+</filmovi>
